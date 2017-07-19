@@ -1,2 +1,2 @@
 # showcatalog
-web page of tv shows i watch
+Web page of TV shows I watch
