@@ -167,6 +167,12 @@ div.desc {
   text-decoration:none;
 }
 
+.lightboxcont{
+  /*background:#F0F0F0;*/
+  height:70%;
+  width:100%;
+}
+
 .lightbox {
   margin-bottom:-30%;
   display:none;
@@ -188,11 +194,12 @@ a figcaption{
 }
 
 .lightbox img {
-  margin:0%;
+  margin-left:30%;
+  margin-bottom:-5%;
+  margin-top:-2%;
   padding:0%;
-  max-width:100%;
-  max-height:100%;
-  width:150%;
+  width:40%;
+  height:85%;
 }
 
 .lightbox:target {
@@ -205,11 +212,11 @@ a figcaption{
   background:#F0F0F0;
   color:black;
   /*border: 3px solid #F1F1F1;*/
-  text-align:center;
-  margin-left:35%;
+  text-align:justify;
+  margin-left:30%;
   margin-top:5%;
-  height:80%;
-  width:30%;
+  height:70%;
+  width:40%;
 }
 
 .lightinfo p {
