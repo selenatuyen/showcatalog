@@ -3,27 +3,35 @@
 }
 
 body{
-  /*background-color:#c3c9d3; */
-  background-color:#800000;
+  background-color:#FFFFFF; 
   text-decoration:none;
 }
 
 .btn {
-	line-height: 20px;
-	height: 30px;
+  -moz-transform: scale(-1, 1);
+  -webkit-transform: scale(-1, 1);
+  -o-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+  margin-top:-13%;
+  margin-left:-4%;
 	text-align: center;
-	width: 90px;
+  font-size: 27px;
 	cursor: pointer;
-    color:white;
+  color: #00334d;
+  opacity: .6;
 }
 
 .btn-one {
 	color: #00334d;
-	transition: all 0.3s;
 	position: relative;
 }
 
-.btn-one span {
+.btn-one:hover span {
+  opacity: 1;
+}
+
+/*.btn-one span {
 	transition: all 0.3s;
 }
 
@@ -71,7 +79,7 @@ body{
 .btn-one:hover::after {
 	opacity: 0;	
 	transform: scale(0.1, 1);
-}
+}*/
 
 .clearfix:after {
      content: "";
@@ -131,7 +139,7 @@ div.desc {
 .jumbotron {
   margin-top:-10px;
   /*background-image:url('https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQvElNoFPHx7H-eHfpUE10LwEFmoMhAZFLiMLV4CXc8crrLsOEf');*/
-  background-image:url('https://static.vecteezy.com/system/resources/previews/000/116/076/original/free-vector-green-watercolor-background.jpg');
+  /*background-image:url('https://static.vecteezy.com/system/resources/previews/000/116/076/original/free-vector-green-watercolor-background.jpg');*/
   height: 100px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -142,7 +150,7 @@ div.desc {
   font-size: 46px;
   font-family: 'Fjalla One', sans-serif;
   position: relative;
-  margin-top:-3%;
+  margin-top:-2%;
   text-align:center;
 }
 
